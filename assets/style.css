@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.flex-container-row {
+	display: flex;
+}
+
+.button {
+	flex-basis: 25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 40px;
+	border: 2px;
+	background: -webkit-linear-gradient(top, #EEEEEE, #393E46);
+	cursor: pointer;
+}
+
+.double {
+	flex-basis: 50%;
+}
+
+.display {
+	color: white;
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #222831;
+	border: 2px solid black;
+	font-size: 2em;
+}
+
+.operator,
+.negative,
+equals {
+	background: #e6e39c;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.button:hover {
+	font-weight: bold;
+}
